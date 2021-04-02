@@ -6,5 +6,3 @@ highScoresList.innerHTML = highScores
     return `<li class="high-score">${score.name[0].toUpperCase() + score.name.slice(1, )} - ${score.score}</li>`;
   })
   .join("");
-
-// console.log(score.name[0].toUpperCase() + score.name.slice(1, ));
