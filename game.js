@@ -58,7 +58,7 @@ startGame = () => {
 getNewQuestions = () => {
   if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
     localStorage.setItem("mostRecentScore", score);
-    return window.location.assign("/quiz-app.github.io/end.html");
+    return window.location.assign("https://jainmonil2101.github.io/quiz-app.github.io/end.html");
   }
   questionCounter++;
   questionCounterText.innerText = questionCounter + "/" + MAX_QUESTIONS;
